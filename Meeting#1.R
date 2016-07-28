@@ -53,7 +53,7 @@ ggplot(data=cotton, aes(x=yield))+
 
 # Density plot
 ggplot(data=cotton, aes(x=yield))+
-  geom_histogram()
+  geom_density()
 
 # Boxplot
 ggplot(data=cotton, aes(x=block, y=yield))+
